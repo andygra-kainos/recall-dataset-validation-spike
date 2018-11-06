@@ -1,0 +1,43 @@
+{
+  "name": "recall-dataset-validation-spike",
+  "version": "0.1.0",
+  "description": "Business Rules for Recalls Dataset Validation",
+  "keywords": [
+    "bre",
+    "rete",
+    "rule",
+    "rules",
+    "engine",
+    "rule engine",
+    "rules engine",
+    "javascript rule engine",
+    "js rule engine",
+    "forward chaining rule engine",
+    "inference system"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Andy Gray"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andy-gra-kainos/recall-dataset-validation-spike"
+  },
+  "dependencies": {
+    "bad-words": "^3.0.0",
+    "convert-csv-to-json": "0.0.13",
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.filter": "^4.6.0",
+    "lodash.isequal": "^4.5.0",
+    "lodash.matches": "^4.6.0",
+    "moment": "^2.22.2",
+    "require-dir": "^1.1.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf ./node_modules package-lock.json",
+    "data:validate": "node index.js",
+    "test": "mocha"
+  },
+  "readmeFilename": "README.md"
+}
